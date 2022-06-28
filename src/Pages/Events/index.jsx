@@ -1,26 +1,7 @@
-import React from "react";
-import Card from './card';
-import styles from "./events.module.css";
+import "./events.css";
 
-
-const Events = () => {
-  return (
-    <div>
-      <h1>Events and Workshops</h1>
-      
-      <div className={styles.eventContainer}>
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      </div>
-    </div>
-  );
-};
+function Events() {
+  return <div>events</div>;
+}
 
 export default Events;
