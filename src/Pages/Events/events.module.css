@@ -3,7 +3,7 @@ body {
     margin: 0;
 }
 
-.eventsContainer{
+.eventsContainer {
     display: grid;
     grid-template-columns: auto auto auto;
     justify-content: center;
@@ -13,7 +13,7 @@ body {
     row-gap: 30px;
 }
 
-h1{
+h1 {
     /* font-size: 3em; */
     text-align: center;
     margin: 0;
@@ -24,7 +24,7 @@ h1{
     font-size: 40px;
 }
 
-.container{
+.container {
     width: 100%;
     margin: 0 auto;
     height: auto;
@@ -80,65 +80,67 @@ img {
 
 
 }
-.location{
+
+.location {
     display: flex;
     flex-direction: row;
 }
-.locationContent{
-/* width: 46px;
+
+.locationContent {
+    /* width: 46px;
 height: 21px;
 left: 600px;
 top: 713px; */
-padding-left: 10px;
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 500;
-font-size: 15px;
-line-height: 21px;
-/* identical to box height, or 150% */
+    padding-left: 10px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 21px;
+    /* identical to box height, or 150% */
 
-text-align: center;
+    text-align: center;
 
-color: #656C73;
+    color: #656C73;
 }
 
-.locationIcon{
+.locationIcon {
     /* width: 32px;
 height: 28px;
 left: 558px;
 top: 705px;  */
-    padding-left:  10px;
-}
-
-.ticket{
-        display: flex;
-        flex-direction: row;
-}
-
-.ticketContent{
     padding-left: 10px;
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 500;
-font-size: 15px;
-line-height: 21px;
-/* identical to box height, or 150% */
-
-text-align: center;
-
-color: #656C73;
 }
 
-.ticketIcon{
-    padding-left:  10px;
+.ticket {
+    display: flex;
+    flex-direction: row;
+}
+
+.ticketContent {
+    padding-left: 10px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 21px;
+    /* identical to box height, or 150% */
+
+    text-align: center;
+
+    color: #656C73;
+}
+
+.ticketIcon {
+    padding-left: 10px;
 
 }
 
-.buttonContainer{
+.buttonContainer {
     text-align: center;
 }
 
-button{
+button {
     margin: 10px 10px 10px 10px;
     box-sizing: border-box;
 
@@ -150,15 +152,34 @@ button{
     border-radius: 8px;
 }
 
-.buttonText{
+.buttonText {
     font-family: 'Poppins';
-font-style: normal;
-font-weight: 700;
-font-size: 20px;
-line-height: 21px;
-/* or 105% */
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 21px;
+    /* or 105% */
 
-text-align: center;
+    text-align: center;
 
-color: #4285F4;
+    color: #4285F4;
+}
+
+
+
+@media screen and (max-width:920px){
+    .eventsContainer {
+        grid-template-columns: auto auto;
+    }
+}
+@media screen and (max-width: 600px){
+    .eventsContainer {
+        grid-template-columns: auto;
+    }
+    .heading{
+        font-size: 22px;
+    }
+    h1{
+        font-size: 35px;
+    }
 }

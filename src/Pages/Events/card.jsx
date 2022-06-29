@@ -10,7 +10,7 @@ import {GiTicket} from 'react-icons/gi';
 const Card = () => {
   return (
     <div className={styles.container}>
-    <div>x``
+    <div>
       <img src={image} alt="" />
     </div>
     <div>
