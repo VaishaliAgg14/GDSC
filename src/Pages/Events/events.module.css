@@ -221,6 +221,7 @@ top: 705px;  */
   border: 2px solid #72a3f3;
 }
 
+<<<<<<< HEAD
 .eventHeading{
   display: flex;
   justify-content: center;
@@ -241,6 +242,8 @@ h2{
   text-decoration-thickness: 3px;
 }
 
+=======
+>>>>>>> e66c1d6b939b395737e6243b77f800e428d73716
 @media screen and (max-width: 920px) {
   .eventsContainer {
     grid-template-columns: auto auto;

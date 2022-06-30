@@ -1,9 +1,14 @@
 import React from "react";
 import Card from "./card";
 import styles from "./events.module.css";
+<<<<<<< HEAD
 import { useState } from "react";
 import eve from "./events_upcoming.json";
 import pastEve from './events_past.json';
+=======
+
+import eve from "./events_upcoming.json";
+>>>>>>> e66c1d6b939b395737e6243b77f800e428d73716
 const Events = () => {
   const [events, setEvents] = useState("U");
   const onClickUpcomingEventHandler =(e) => {
@@ -15,6 +20,7 @@ const Events = () => {
     setEvents("P");
   }
   return (
+<<<<<<< HEAD
      <div>
       <h1 className={styles.super}>Events and Workshops</h1>
       <div className={styles.eventHeading}>
@@ -24,6 +30,11 @@ const Events = () => {
       </div>
       { events === "U" && (
         <div className={styles.eventsContainer}>
+=======
+    <div>
+      <h1 className={styles.super}>Events and Workshops</h1>
+      <div className={styles.eventsContainer}>
+>>>>>>> e66c1d6b939b395737e6243b77f800e428d73716
         {eve.map((even) => {
           return (
             <>
@@ -44,6 +55,7 @@ const Events = () => {
         <Card />
         <Card /> */}
       </div>
+<<<<<<< HEAD
       )}
       { events === "P" && (
         <div className={styles.eventsContainer}>
@@ -69,6 +81,8 @@ const Events = () => {
       </div>
       )}
       
+=======
+>>>>>>> e66c1d6b939b395737e6243b77f800e428d73716
     </div>
   );
 };
